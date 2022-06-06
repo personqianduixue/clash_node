@@ -5,147 +5,151 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_92 | 6.98Mb, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: US_293 |10.65Mb, server: 152.70.87.181, port: 59438, type: vmess, uuid: 28399139-a18d-4b87-b127-ac4df1a986cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 152.70.87.181}, udp: true}
-  - {name: CN_65, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_123 |10.12Mb, server: 116.129.254.47, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: CN_122 |36.73Mb, server: 116.129.254.47, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_318 | 5.71Mb, server: 5.44.249.43, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: CN_140 |35.58Mb, server: 116.129.254.47, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_320 | 2.63Mb, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_316 | 5.27Mb, server: 5.44.249.43, port: 3389, type: trojan, password: 711aabc21e45ae31, skip-cert-verify: true, udp: true}
-  - {name: CN_111 | 8.14Mb, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_102 |16.48Mb, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_321 | 5.82Mb, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: CN_90 | 4.13Mb, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_35 |63.17Mb, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_114 | 2.38Mb, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_322 | 5.34Mb, server: 5.44.249.43, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: "|20.86Mb", server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_77 |60.57Mb, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_317 | 3.66Mb, server: 5.44.249.43, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, skip-cert-verify: true, udp: true}
-  - {name: CN_99 |53.66Mb, server: 116.129.254.47, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_319 | 1.97Mb, server: 5.44.249.43, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: CN_104 |17.00Mb, server: 116.129.254.47, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: "|13.76Mb", server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_46 |58.52Mb, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_103 | 6.04Mb, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 日本_0606283, server: 109.166.38.54, port: 31243, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: CN_75 | 8.26Mb, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|13.14Mb", server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _02 |47.51Mb, server: 139.9.88.116, port: 5800, type: vmess, uuid: 63c04e85-c6a0-4503-b2f7-ebf733e55db2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本_0606066, server: 140.83.59.41, port: 80, type: vmess, uuid: 8f4832f7-a51b-4049-9060-0422c3223e76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: www.youku.com}, udp: true}
+  - {name: CN_77 |81.87Mb, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_29 | 5.22Mb, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_62 |19.62Mb, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 香港, server: 47.243.87.171, port: 443, type: vmess, uuid: 4af38112-0854-48d8-9387-5ece4078a599, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /szGxn, ws-headers: {Host: 47.243.87.171}, udp: true}
+  - {name: CN_65 | 1.30Mb, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_26 |51.93Mb, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 日本_0606290, server: 140.83.59.41, port: 80, type: vmess, uuid: 8f4832f7-a51b-4049-9060-0422c3223e76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 140.83.59.41}, udp: true}
+  - {name: CN_53 |55.99Mb, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_92 | 6.98Mb, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_60 |61.65Mb, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_30 |25.19Mb, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_66 |25.56Mb, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_52 |31.37Mb, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_31 |65.59Mb, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_35 |63.17Mb, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_98 |10.31Mb, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_106 |13.11Mb, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_90 | 4.13Mb, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_85 | 6.89Mb, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_90 | 6.90Mb, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_77 |60.57Mb, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_122 | 7.06Mb, server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_78 |13.76Mb, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_118 | 2.64Mb, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|20.86Mb", server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_76 |88.50Mb, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_95 | 5.49Mb, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_75 | 8.26Mb, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_73 |60.57Mb, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_28 |33.56Mb, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: US_208 |10.66Mb, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_92 | 6.98Mb
-      - US_293 |10.65Mb
-      - CN_65
-      - CN_123 |10.12Mb
-      - CN_122 |36.73Mb
-      - Relay_🏁ZZ-🇹🇼TW_318 | 5.71Mb
-      - CN_140 |35.58Mb
-      - Relay_🏁ZZ-🇹🇼TW_320 | 2.63Mb
-      - Relay_🏁ZZ-🇹🇼TW_316 | 5.27Mb
-      - CN_111 | 8.14Mb
-      - CN_102 |16.48Mb
-      - Relay_🏁ZZ-🇹🇼TW_321 | 5.82Mb
-      - CN_90 | 4.13Mb
-      - CN_35 |63.17Mb
-      - CN_114 | 2.38Mb
-      - Relay_🏁ZZ-🇹🇼TW_322 | 5.34Mb
-      - "|20.86Mb"
-      - CN_77 |60.57Mb
-      - Relay_🏁ZZ-🇹🇼TW_317 | 3.66Mb
-      - CN_99 |53.66Mb
-      - Relay_🏁ZZ-🇹🇼TW_319 | 1.97Mb
-      - CN_104 |17.00Mb
-      - "|13.76Mb"
-      - CN_46 |58.52Mb
-      - CN_103 | 6.04Mb
-      - 日本_0606283
-      - CN_75 | 8.26Mb
-      - "|13.14Mb"
-      - _02 |47.51Mb
+      - 日本_0606066
+      - CN_77 |81.87Mb
+      - CN_29 | 5.22Mb
+      - CN_62 |19.62Mb
       - 香港
+      - CN_65 | 1.30Mb
+      - CN_26 |51.93Mb
+      - 日本_0606290
+      - CN_53 |55.99Mb
+      - CN_92 | 6.98Mb
+      - CN_60 |61.65Mb
+      - CN_30 |25.19Mb
+      - CN_66 |25.56Mb
+      - CN_52 |31.37Mb
+      - CN_31 |65.59Mb
+      - CN_35 |63.17Mb
+      - CN_98 |10.31Mb
       - CN_106 |13.11Mb
+      - CN_90 | 4.13Mb
+      - CN_85 | 6.89Mb
+      - CN_90 | 6.90Mb
+      - CN_77 |60.57Mb
+      - CN_122 | 7.06Mb
+      - CN_78 |13.76Mb
+      - CN_118 | 2.64Mb
+      - "|20.86Mb"
+      - CN_76 |88.50Mb
+      - CN_95 | 5.49Mb
+      - CN_75 | 8.26Mb
+      - CN_73 |60.57Mb
+      - CN_28 |33.56Mb
+      - US_208 |10.66Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_92 | 6.98Mb
-      - US_293 |10.65Mb
-      - CN_65
-      - CN_123 |10.12Mb
-      - CN_122 |36.73Mb
-      - Relay_🏁ZZ-🇹🇼TW_318 | 5.71Mb
-      - CN_140 |35.58Mb
-      - Relay_🏁ZZ-🇹🇼TW_320 | 2.63Mb
-      - Relay_🏁ZZ-🇹🇼TW_316 | 5.27Mb
-      - CN_111 | 8.14Mb
-      - CN_102 |16.48Mb
-      - Relay_🏁ZZ-🇹🇼TW_321 | 5.82Mb
-      - CN_90 | 4.13Mb
-      - CN_35 |63.17Mb
-      - CN_114 | 2.38Mb
-      - Relay_🏁ZZ-🇹🇼TW_322 | 5.34Mb
-      - "|20.86Mb"
-      - CN_77 |60.57Mb
-      - Relay_🏁ZZ-🇹🇼TW_317 | 3.66Mb
-      - CN_99 |53.66Mb
-      - Relay_🏁ZZ-🇹🇼TW_319 | 1.97Mb
-      - CN_104 |17.00Mb
-      - "|13.76Mb"
-      - CN_46 |58.52Mb
-      - CN_103 | 6.04Mb
-      - 日本_0606283
-      - CN_75 | 8.26Mb
-      - "|13.14Mb"
-      - _02 |47.51Mb
+      - 日本_0606066
+      - CN_77 |81.87Mb
+      - CN_29 | 5.22Mb
+      - CN_62 |19.62Mb
       - 香港
+      - CN_65 | 1.30Mb
+      - CN_26 |51.93Mb
+      - 日本_0606290
+      - CN_53 |55.99Mb
+      - CN_92 | 6.98Mb
+      - CN_60 |61.65Mb
+      - CN_30 |25.19Mb
+      - CN_66 |25.56Mb
+      - CN_52 |31.37Mb
+      - CN_31 |65.59Mb
+      - CN_35 |63.17Mb
+      - CN_98 |10.31Mb
       - CN_106 |13.11Mb
+      - CN_90 | 4.13Mb
+      - CN_85 | 6.89Mb
+      - CN_90 | 6.90Mb
+      - CN_77 |60.57Mb
+      - CN_122 | 7.06Mb
+      - CN_78 |13.76Mb
+      - CN_118 | 2.64Mb
+      - "|20.86Mb"
+      - CN_76 |88.50Mb
+      - CN_95 | 5.49Mb
+      - CN_75 | 8.26Mb
+      - CN_73 |60.57Mb
+      - CN_28 |33.56Mb
+      - US_208 |10.66Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_92 | 6.98Mb
-      - US_293 |10.65Mb
-      - CN_65
-      - CN_123 |10.12Mb
-      - CN_122 |36.73Mb
-      - Relay_🏁ZZ-🇹🇼TW_318 | 5.71Mb
-      - CN_140 |35.58Mb
-      - Relay_🏁ZZ-🇹🇼TW_320 | 2.63Mb
-      - Relay_🏁ZZ-🇹🇼TW_316 | 5.27Mb
-      - CN_111 | 8.14Mb
-      - CN_102 |16.48Mb
-      - Relay_🏁ZZ-🇹🇼TW_321 | 5.82Mb
-      - CN_90 | 4.13Mb
-      - CN_35 |63.17Mb
-      - CN_114 | 2.38Mb
-      - Relay_🏁ZZ-🇹🇼TW_322 | 5.34Mb
-      - "|20.86Mb"
-      - CN_77 |60.57Mb
-      - Relay_🏁ZZ-🇹🇼TW_317 | 3.66Mb
-      - CN_99 |53.66Mb
-      - Relay_🏁ZZ-🇹🇼TW_319 | 1.97Mb
-      - CN_104 |17.00Mb
-      - "|13.76Mb"
-      - CN_46 |58.52Mb
-      - CN_103 | 6.04Mb
-      - 日本_0606283
-      - CN_75 | 8.26Mb
-      - "|13.14Mb"
-      - _02 |47.51Mb
+      - 日本_0606066
+      - CN_77 |81.87Mb
+      - CN_29 | 5.22Mb
+      - CN_62 |19.62Mb
       - 香港
+      - CN_65 | 1.30Mb
+      - CN_26 |51.93Mb
+      - 日本_0606290
+      - CN_53 |55.99Mb
+      - CN_92 | 6.98Mb
+      - CN_60 |61.65Mb
+      - CN_30 |25.19Mb
+      - CN_66 |25.56Mb
+      - CN_52 |31.37Mb
+      - CN_31 |65.59Mb
+      - CN_35 |63.17Mb
+      - CN_98 |10.31Mb
       - CN_106 |13.11Mb
+      - CN_90 | 4.13Mb
+      - CN_85 | 6.89Mb
+      - CN_90 | 6.90Mb
+      - CN_77 |60.57Mb
+      - CN_122 | 7.06Mb
+      - CN_78 |13.76Mb
+      - CN_118 | 2.64Mb
+      - "|20.86Mb"
+      - CN_76 |88.50Mb
+      - CN_95 | 5.49Mb
+      - CN_75 | 8.26Mb
+      - CN_73 |60.57Mb
+      - CN_28 |33.56Mb
+      - US_208 |10.66Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -164,37 +168,38 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_92 | 6.98Mb
-      - US_293 |10.65Mb
-      - CN_65
-      - CN_123 |10.12Mb
-      - CN_122 |36.73Mb
-      - Relay_🏁ZZ-🇹🇼TW_318 | 5.71Mb
-      - CN_140 |35.58Mb
-      - Relay_🏁ZZ-🇹🇼TW_320 | 2.63Mb
-      - Relay_🏁ZZ-🇹🇼TW_316 | 5.27Mb
-      - CN_111 | 8.14Mb
-      - CN_102 |16.48Mb
-      - Relay_🏁ZZ-🇹🇼TW_321 | 5.82Mb
-      - CN_90 | 4.13Mb
-      - CN_35 |63.17Mb
-      - CN_114 | 2.38Mb
-      - Relay_🏁ZZ-🇹🇼TW_322 | 5.34Mb
-      - "|20.86Mb"
-      - CN_77 |60.57Mb
-      - Relay_🏁ZZ-🇹🇼TW_317 | 3.66Mb
-      - CN_99 |53.66Mb
-      - Relay_🏁ZZ-🇹🇼TW_319 | 1.97Mb
-      - CN_104 |17.00Mb
-      - "|13.76Mb"
-      - CN_46 |58.52Mb
-      - CN_103 | 6.04Mb
-      - 日本_0606283
-      - CN_75 | 8.26Mb
-      - "|13.14Mb"
-      - _02 |47.51Mb
+      - 日本_0606066
+      - CN_77 |81.87Mb
+      - CN_29 | 5.22Mb
+      - CN_62 |19.62Mb
       - 香港
+      - CN_65 | 1.30Mb
+      - CN_26 |51.93Mb
+      - 日本_0606290
+      - CN_53 |55.99Mb
+      - CN_92 | 6.98Mb
+      - CN_60 |61.65Mb
+      - CN_30 |25.19Mb
+      - CN_66 |25.56Mb
+      - CN_52 |31.37Mb
+      - CN_31 |65.59Mb
+      - CN_35 |63.17Mb
+      - CN_98 |10.31Mb
       - CN_106 |13.11Mb
+      - CN_90 | 4.13Mb
+      - CN_85 | 6.89Mb
+      - CN_90 | 6.90Mb
+      - CN_77 |60.57Mb
+      - CN_122 | 7.06Mb
+      - CN_78 |13.76Mb
+      - CN_118 | 2.64Mb
+      - "|20.86Mb"
+      - CN_76 |88.50Mb
+      - CN_95 | 5.49Mb
+      - CN_75 | 8.26Mb
+      - CN_73 |60.57Mb
+      - CN_28 |33.56Mb
+      - US_208 |10.66Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -206,110 +211,113 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_92 | 6.98Mb
-      - US_293 |10.65Mb
-      - CN_65
-      - CN_123 |10.12Mb
-      - CN_122 |36.73Mb
-      - Relay_🏁ZZ-🇹🇼TW_318 | 5.71Mb
-      - CN_140 |35.58Mb
-      - Relay_🏁ZZ-🇹🇼TW_320 | 2.63Mb
-      - Relay_🏁ZZ-🇹🇼TW_316 | 5.27Mb
-      - CN_111 | 8.14Mb
-      - CN_102 |16.48Mb
-      - Relay_🏁ZZ-🇹🇼TW_321 | 5.82Mb
-      - CN_90 | 4.13Mb
-      - CN_35 |63.17Mb
-      - CN_114 | 2.38Mb
-      - Relay_🏁ZZ-🇹🇼TW_322 | 5.34Mb
-      - "|20.86Mb"
-      - CN_77 |60.57Mb
-      - Relay_🏁ZZ-🇹🇼TW_317 | 3.66Mb
-      - CN_99 |53.66Mb
-      - Relay_🏁ZZ-🇹🇼TW_319 | 1.97Mb
-      - CN_104 |17.00Mb
-      - "|13.76Mb"
-      - CN_46 |58.52Mb
-      - CN_103 | 6.04Mb
-      - 日本_0606283
-      - CN_75 | 8.26Mb
-      - "|13.14Mb"
-      - _02 |47.51Mb
+      - 日本_0606066
+      - CN_77 |81.87Mb
+      - CN_29 | 5.22Mb
+      - CN_62 |19.62Mb
       - 香港
+      - CN_65 | 1.30Mb
+      - CN_26 |51.93Mb
+      - 日本_0606290
+      - CN_53 |55.99Mb
+      - CN_92 | 6.98Mb
+      - CN_60 |61.65Mb
+      - CN_30 |25.19Mb
+      - CN_66 |25.56Mb
+      - CN_52 |31.37Mb
+      - CN_31 |65.59Mb
+      - CN_35 |63.17Mb
+      - CN_98 |10.31Mb
       - CN_106 |13.11Mb
+      - CN_90 | 4.13Mb
+      - CN_85 | 6.89Mb
+      - CN_90 | 6.90Mb
+      - CN_77 |60.57Mb
+      - CN_122 | 7.06Mb
+      - CN_78 |13.76Mb
+      - CN_118 | 2.64Mb
+      - "|20.86Mb"
+      - CN_76 |88.50Mb
+      - CN_95 | 5.49Mb
+      - CN_75 | 8.26Mb
+      - CN_73 |60.57Mb
+      - CN_28 |33.56Mb
+      - US_208 |10.66Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_92 | 6.98Mb
-      - US_293 |10.65Mb
-      - CN_65
-      - CN_123 |10.12Mb
-      - CN_122 |36.73Mb
-      - Relay_🏁ZZ-🇹🇼TW_318 | 5.71Mb
-      - CN_140 |35.58Mb
-      - Relay_🏁ZZ-🇹🇼TW_320 | 2.63Mb
-      - Relay_🏁ZZ-🇹🇼TW_316 | 5.27Mb
-      - CN_111 | 8.14Mb
-      - CN_102 |16.48Mb
-      - Relay_🏁ZZ-🇹🇼TW_321 | 5.82Mb
-      - CN_90 | 4.13Mb
-      - CN_35 |63.17Mb
-      - CN_114 | 2.38Mb
-      - Relay_🏁ZZ-🇹🇼TW_322 | 5.34Mb
-      - "|20.86Mb"
-      - CN_77 |60.57Mb
-      - Relay_🏁ZZ-🇹🇼TW_317 | 3.66Mb
-      - CN_99 |53.66Mb
-      - Relay_🏁ZZ-🇹🇼TW_319 | 1.97Mb
-      - CN_104 |17.00Mb
-      - "|13.76Mb"
-      - CN_46 |58.52Mb
-      - CN_103 | 6.04Mb
-      - 日本_0606283
-      - CN_75 | 8.26Mb
-      - "|13.14Mb"
-      - _02 |47.51Mb
+      - 日本_0606066
+      - CN_77 |81.87Mb
+      - CN_29 | 5.22Mb
+      - CN_62 |19.62Mb
       - 香港
+      - CN_65 | 1.30Mb
+      - CN_26 |51.93Mb
+      - 日本_0606290
+      - CN_53 |55.99Mb
+      - CN_92 | 6.98Mb
+      - CN_60 |61.65Mb
+      - CN_30 |25.19Mb
+      - CN_66 |25.56Mb
+      - CN_52 |31.37Mb
+      - CN_31 |65.59Mb
+      - CN_35 |63.17Mb
+      - CN_98 |10.31Mb
       - CN_106 |13.11Mb
+      - CN_90 | 4.13Mb
+      - CN_85 | 6.89Mb
+      - CN_90 | 6.90Mb
+      - CN_77 |60.57Mb
+      - CN_122 | 7.06Mb
+      - CN_78 |13.76Mb
+      - CN_118 | 2.64Mb
+      - "|20.86Mb"
+      - CN_76 |88.50Mb
+      - CN_95 | 5.49Mb
+      - CN_75 | 8.26Mb
+      - CN_73 |60.57Mb
+      - CN_28 |33.56Mb
+      - US_208 |10.66Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_92 | 6.98Mb
-      - US_293 |10.65Mb
-      - CN_65
-      - CN_123 |10.12Mb
-      - CN_122 |36.73Mb
-      - Relay_🏁ZZ-🇹🇼TW_318 | 5.71Mb
-      - CN_140 |35.58Mb
-      - Relay_🏁ZZ-🇹🇼TW_320 | 2.63Mb
-      - Relay_🏁ZZ-🇹🇼TW_316 | 5.27Mb
-      - CN_111 | 8.14Mb
-      - CN_102 |16.48Mb
-      - Relay_🏁ZZ-🇹🇼TW_321 | 5.82Mb
-      - CN_90 | 4.13Mb
-      - CN_35 |63.17Mb
-      - CN_114 | 2.38Mb
-      - Relay_🏁ZZ-🇹🇼TW_322 | 5.34Mb
-      - "|20.86Mb"
-      - CN_77 |60.57Mb
-      - Relay_🏁ZZ-🇹🇼TW_317 | 3.66Mb
-      - CN_99 |53.66Mb
-      - Relay_🏁ZZ-🇹🇼TW_319 | 1.97Mb
-      - CN_104 |17.00Mb
-      - "|13.76Mb"
-      - CN_46 |58.52Mb
-      - CN_103 | 6.04Mb
-      - 日本_0606283
-      - CN_75 | 8.26Mb
-      - "|13.14Mb"
-      - _02 |47.51Mb
+      - 日本_0606066
+      - CN_77 |81.87Mb
+      - CN_29 | 5.22Mb
+      - CN_62 |19.62Mb
       - 香港
+      - CN_65 | 1.30Mb
+      - CN_26 |51.93Mb
+      - 日本_0606290
+      - CN_53 |55.99Mb
+      - CN_92 | 6.98Mb
+      - CN_60 |61.65Mb
+      - CN_30 |25.19Mb
+      - CN_66 |25.56Mb
+      - CN_52 |31.37Mb
+      - CN_31 |65.59Mb
+      - CN_35 |63.17Mb
+      - CN_98 |10.31Mb
       - CN_106 |13.11Mb
+      - CN_90 | 4.13Mb
+      - CN_85 | 6.89Mb
+      - CN_90 | 6.90Mb
+      - CN_77 |60.57Mb
+      - CN_122 | 7.06Mb
+      - CN_78 |13.76Mb
+      - CN_118 | 2.64Mb
+      - "|20.86Mb"
+      - CN_76 |88.50Mb
+      - CN_95 | 5.49Mb
+      - CN_75 | 8.26Mb
+      - CN_73 |60.57Mb
+      - CN_28 |33.56Mb
+      - US_208 |10.66Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -325,37 +333,38 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_92 | 6.98Mb
-      - US_293 |10.65Mb
-      - CN_65
-      - CN_123 |10.12Mb
-      - CN_122 |36.73Mb
-      - Relay_🏁ZZ-🇹🇼TW_318 | 5.71Mb
-      - CN_140 |35.58Mb
-      - Relay_🏁ZZ-🇹🇼TW_320 | 2.63Mb
-      - Relay_🏁ZZ-🇹🇼TW_316 | 5.27Mb
-      - CN_111 | 8.14Mb
-      - CN_102 |16.48Mb
-      - Relay_🏁ZZ-🇹🇼TW_321 | 5.82Mb
-      - CN_90 | 4.13Mb
-      - CN_35 |63.17Mb
-      - CN_114 | 2.38Mb
-      - Relay_🏁ZZ-🇹🇼TW_322 | 5.34Mb
-      - "|20.86Mb"
-      - CN_77 |60.57Mb
-      - Relay_🏁ZZ-🇹🇼TW_317 | 3.66Mb
-      - CN_99 |53.66Mb
-      - Relay_🏁ZZ-🇹🇼TW_319 | 1.97Mb
-      - CN_104 |17.00Mb
-      - "|13.76Mb"
-      - CN_46 |58.52Mb
-      - CN_103 | 6.04Mb
-      - 日本_0606283
-      - CN_75 | 8.26Mb
-      - "|13.14Mb"
-      - _02 |47.51Mb
+      - 日本_0606066
+      - CN_77 |81.87Mb
+      - CN_29 | 5.22Mb
+      - CN_62 |19.62Mb
       - 香港
+      - CN_65 | 1.30Mb
+      - CN_26 |51.93Mb
+      - 日本_0606290
+      - CN_53 |55.99Mb
+      - CN_92 | 6.98Mb
+      - CN_60 |61.65Mb
+      - CN_30 |25.19Mb
+      - CN_66 |25.56Mb
+      - CN_52 |31.37Mb
+      - CN_31 |65.59Mb
+      - CN_35 |63.17Mb
+      - CN_98 |10.31Mb
       - CN_106 |13.11Mb
+      - CN_90 | 4.13Mb
+      - CN_85 | 6.89Mb
+      - CN_90 | 6.90Mb
+      - CN_77 |60.57Mb
+      - CN_122 | 7.06Mb
+      - CN_78 |13.76Mb
+      - CN_118 | 2.64Mb
+      - "|20.86Mb"
+      - CN_76 |88.50Mb
+      - CN_95 | 5.49Mb
+      - CN_75 | 8.26Mb
+      - CN_73 |60.57Mb
+      - CN_28 |33.56Mb
+      - US_208 |10.66Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
